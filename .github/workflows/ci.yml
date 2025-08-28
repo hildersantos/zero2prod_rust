@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: loonghao/rust-actions-toolkit@main
+      - uses: loonghao/rust-actions-toolkit@v2
         with:
           command: ci
